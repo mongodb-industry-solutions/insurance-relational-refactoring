@@ -7,7 +7,7 @@ Welcome to the *Insurance Relational Refactoring* repository! In the dynamic lan
 - Postgres Backup: Restore the original database in seconds. This backup includes sample data and it's ready to connect to MongoDB Relational Migrator. 
 - DDLs: If you prefer excluding sample data, running the DDLs ensures a quick and efficient database configuration tailored to the insurance model.
 
-> **Note**
+> [!Note]
 > For a more comprehensive step-by-step tutorial you can also visit our Insurance Data Model Migration blog (Coming soon!).
 
 ## Prerequisites
