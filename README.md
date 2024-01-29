@@ -249,6 +249,16 @@ Open the claim mapping menu and add the following mappings:
 | Field Name |  insurableObject   |
 | Excluded fields |  -   |
 
+- **Policy Coverage Detail**
+
+| Option              | Value |
+| :---------------- | :------: |
+| Migrate table as        |   Embedded array   |
+| Source table          |   policy_coverage_detail   |
+| Prefix |  insurableObject   |
+| Field Name |  policyCoverageDetails   |
+| Excluded fields |  `insurableObjectIdentifier`  |
+
 - **Litigation Party Role**
 
 | Option              | Value |
