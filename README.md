@@ -127,11 +127,11 @@ Open the party mapping menu and add the following mappings:
 
 The resulting collection should look like the image below.
 
-![Document representation of the Party entity](img/image2.png)
+![Document representation of the Party entity](img/party.png)
 
 In the party domeain, party_role represents the role a party plays in a specific context such as policy, claim or litigation. It can be left out as a reference collection on its own. So it will remain unchanged in the MongoDB model.
 
-![Document representation of the PartyRole entity](img/image5.png)
+![Document representation of the PartyRole entity](img/partyrole.png)
 
 ## Refactor Party in context of Policy
 
@@ -211,7 +211,7 @@ Open the policy mapping menu and add the following mappings:
 
 By now we should have a collection similar to the one below.
 
-![Document representation of the Policy entity](img/image3.png)
+![Document representation of the Policy entity](img/policy.png)
 
 ## Refactor Party in context of Claim & Litigation
 
@@ -271,7 +271,7 @@ Open the claim mapping menu and add the following mappings:
 
 The collection show look as follows:
 
-![Document representation of the Claim entity](img/image4.png)
+![Document representation of the Claim entity](img/claim.png)
 
 Now, open the litigation mapping menu and add the following mappings:
 
@@ -319,7 +319,7 @@ Now, open the litigation mapping menu and add the following mappings:
 
 The resulting collection shoudl look like the one below. 
 
-![Document representation of the Litigation entity](img/image11.png)
+![Document representation of the Litigation entity](img/litigation.png)
 
 And that’s it, we have modeled the entire relationship schema in just 5 collections: “party”, “partyRole”, “policy”, “claim” and “litigation”. You can remove the rest of the collections and compare the original tabular schema composed of 21 tables to the resulting 5 collections. 
 
