@@ -8,7 +8,7 @@ Welcome to the *Insurance Relational Refactoring* repository! In the dynamic lan
 - DDLs: If you prefer excluding sample data, running the DDLs ensures a quick and efficient database configuration tailored to the insurance model.
 
 > [!Note]
-> For a more comprehensive step-by-step tutorial you can also visit our Insurance Data Model Migration blog (Coming soon!).
+> Looking for a detailed walkthrough? Follow our step-by-step tutorial on how to [modernize your insurance data models with MongoDB Relational Migrator](https://www.mongodb.com/developer/products/mongodb/insurance-data-model-relational-migrator-refactor/).
 
 ## Prerequisites
 Before you begin with the tutorial please ensure you have the following prerequisites in place:
