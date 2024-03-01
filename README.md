@@ -53,7 +53,7 @@ pg_restore -h <host> -p <port> -U <user> -d mongodb_insurance_model mongodb_insu
 After a few seconds our new database will be ready to use. Verify the successful restore by running the command below:
 
 ```sh
-psql -h <host> -p <port> -U <user>-d mongodb_insurance_model -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname='omg';"
+psql -h <host> -p <port> -U <user> -d mongodb_insurance_model -c "SELECT * FROM pg_catalog.pg_tables WHERE schemaname='omg';"
 ```
 
 You should see a list of 21 tables. If all looks good, you are ready to connect your data to MongoDB Relational Migrator.
