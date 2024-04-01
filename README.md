@@ -3,7 +3,6 @@
 Welcome to the *Insurance Relational Refactoring* repository! In the dynamic landscape of the insurance industry's IT systems, transitioning from legacy models to modern, flexible approaches is crucial for innovation and efficiency. This repository addresses the challenges faced by IT practitioners, offering a practical guide for refactoring the OMG Property & Casualty Insurance Data Model using MongoDB's Relational Migrator. 
 
 **Repository Contents:**
-- Hackolade Models: Explore visual representations of the data model using Hackolade's ERDs.
 - Postgres Backup: Restore the original database in seconds. This backup includes sample data and it's ready to connect to MongoDB Relational Migrator. 
 - DDLs: If you prefer excluding sample data, running the DDLs ensures a quick and efficient database configuration tailored to the insurance model.
 
